@@ -1,0 +1,204 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.eduma"
+4    android:versionCode="14"
+5    android:versionName="1.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:5:5-64
+13-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:6:5-79
+14-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:6:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:7:5-80
+15-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="com.android.vending.BILLING" />
+16-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:8:5-67
+16-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:8:22-64
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.facebook.flipper:flipper:0.99.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/5a70ebd7b8503f11220d78fd7002e1a0/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.99.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/5a70ebd7b8503f11220d78fd7002e1a0/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[:react-native-community_netinfo] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+18-->[:react-native-community_netinfo] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[:react-native-background-timer] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-background-timer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-68
+19-->[:react-native-background-timer] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-background-timer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-65
+20
+21    <queries>
+21-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-14:15
+22        <intent>
+22-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-13:18
+23            <action android:name="android.media.action.IMAGE_CAPTURE" />
+23-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-73
+23-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:21-70
+24        </intent>
+25    </queries> <!-- Required by older versions of Google Play services to create IID tokens -->
+26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+26-->[com.google.android.gms:play-services-iid:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/e18b3ef1604371e7e10a2586fcf5f032/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+26-->[com.google.android.gms:play-services-iid:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/e18b3ef1604371e7e10a2586fcf5f032/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+27-->[com.android.installreferrer:installreferrer:1.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/150d95ff2179d66a1b5aeef5973627bb/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+27-->[com.android.installreferrer:installreferrer:1.1.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/150d95ff2179d66a1b5aeef5973627bb/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+28
+29    <application
+29-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:11:5-29:19
+30        android:name="com.eduma.MainApplication"
+30-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:12:7-38
+31        android:allowBackup="false"
+31-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:15:7-34
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/eebedfd6526cd5539e0a44e6886856e3/core-1.5.0/AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:14:7-41
+35        android:label="@string/app_name"
+35-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:13:7-39
+36        android:theme="@style/AppTheme"
+36-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:16:7-38
+37        android:usesCleartextTraffic="true" >
+37-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/debug/AndroidManifest.xml:8:9-44
+38        <activity
+38-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/debug/AndroidManifest.xml:11:9-111
+39            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+39-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/debug/AndroidManifest.xml:11:19-83
+40            android:exported="false" />
+40-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/debug/AndroidManifest.xml:11:84-108
+41        <activity
+41-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:17:7-28:18
+42            android:name="com.eduma.MainActivity"
+42-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:18:9-37
+43            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+43-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:20:9-86
+44            android:exported="true"
+44-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:23:9-32
+45            android:label="@string/app_name"
+45-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:19:9-41
+46            android:launchMode="singleTask"
+46-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:21:9-40
+47            android:windowSoftInputMode="adjustResize" >
+47-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:22:9-51
+48            <intent-filter>
+48-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:24:9-27:25
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:25:13-65
+49-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:25:21-62
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:26:13-73
+51-->/Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/android/app/src/main/AndroidManifest.xml:26:23-70
+52            </intent-filter>
+53        </activity>
+54
+55        <receiver
+55-->[:react-native-device-info] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-21:20
+56            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
+56-->[:react-native-device-info] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-70
+57            android:enabled="true"
+57-->[:react-native-device-info] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-35
+58            android:exported="true" >
+58-->[:react-native-device-info] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-36
+59            <intent-filter>
+59-->[:react-native-device-info] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-20:29
+60                <action android:name="com.android.vending.INSTALL_REFERRER" />
+60-->[:react-native-device-info] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-79
+60-->[:react-native-device-info] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:25-76
+61            </intent-filter>
+62        </receiver>
+63
+64        <provider
+64-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-27:20
+65            android:name="androidx.core.content.FileProvider"
+65-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-62
+66            android:authorities="com.eduma.provider"
+66-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-60
+67            android:exported="false"
+67-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-37
+68            android:grantUriPermissions="true" >
+68-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-47
+69            <meta-data
+69-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+70                android:name="android.support.FILE_PROVIDER_PATHS"
+70-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+71                android:resource="@xml/provider_paths" />
+71-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+72        </provider>
+73
+74        <activity
+74-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-31:72
+75            android:name="com.yalantis.ucrop.UCropActivity"
+75-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-60
+76            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+76-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-69
+77
+78        <provider
+78-->[:react-native-webview] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+79            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+79-->[:react-native-webview] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+80            android:authorities="com.eduma.fileprovider"
+80-->[:react-native-webview] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+81            android:exported="false"
+81-->[:react-native-webview] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+82            android:grantUriPermissions="true" >
+82-->[:react-native-webview] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+83            <meta-data
+83-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+84                android:name="android.support.FILE_PROVIDER_PATHS"
+84-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+85                android:resource="@xml/file_provider_paths" />
+85-->[:react-native-image-crop-picker] /Users/mac/Downloads/codecanyon-36720603-eduma-mobile-react-native-lms-mobile-app-for-ios-android/eduma-lms-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+86        </provider>
+87
+88        <meta-data
+88-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b4d42c69c1b303365db268f40f4c6e87/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+89            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+89-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b4d42c69c1b303365db268f40f4c6e87/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+90            android:value="GlideModule" />
+90-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b4d42c69c1b303365db268f40f4c6e87/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+91
+92        <activity
+92-->[com.google.android.gms:play-services-base:17.6.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7d64a1cd2514583b2a458dd887234110/jetified-play-services-base-17.6.0/AndroidManifest.xml:23:9-26:75
+93            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+93-->[com.google.android.gms:play-services-base:17.6.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7d64a1cd2514583b2a458dd887234110/jetified-play-services-base-17.6.0/AndroidManifest.xml:24:13-79
+94            android:exported="false"
+94-->[com.google.android.gms:play-services-base:17.6.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7d64a1cd2514583b2a458dd887234110/jetified-play-services-base-17.6.0/AndroidManifest.xml:25:13-37
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->[com.google.android.gms:play-services-base:17.6.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7d64a1cd2514583b2a458dd887234110/jetified-play-services-base-17.6.0/AndroidManifest.xml:26:13-72
+96
+97        <meta-data
+97-->[com.google.android.gms:play-services-basement:17.6.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b30aa8f2c38872540ef1352302c9199c/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+98            android:name="com.google.android.gms.version"
+98-->[com.google.android.gms:play-services-basement:17.6.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b30aa8f2c38872540ef1352302c9199c/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+99            android:value="@integer/google_play_services_version" />
+99-->[com.google.android.gms:play-services-basement:17.6.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b30aa8f2c38872540ef1352302c9199c/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+100        <meta-data
+100-->[com.android.billingclient:billing:4.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a34d192b9efcd18d27de0cf2c71b0645/jetified-billing-4.0.0/AndroidManifest.xml:13:9-15:37
+101            android:name="com.google.android.play.billingclient.version"
+101-->[com.android.billingclient:billing:4.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a34d192b9efcd18d27de0cf2c71b0645/jetified-billing-4.0.0/AndroidManifest.xml:14:13-73
+102            android:value="4.0.0" />
+102-->[com.android.billingclient:billing:4.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a34d192b9efcd18d27de0cf2c71b0645/jetified-billing-4.0.0/AndroidManifest.xml:15:13-34
+103
+104        <activity
+104-->[com.android.billingclient:billing:4.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a34d192b9efcd18d27de0cf2c71b0645/jetified-billing-4.0.0/AndroidManifest.xml:17:9-21:75
+105            android:name="com.android.billingclient.api.ProxyBillingActivity"
+105-->[com.android.billingclient:billing:4.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a34d192b9efcd18d27de0cf2c71b0645/jetified-billing-4.0.0/AndroidManifest.xml:18:13-78
+106            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+106-->[com.android.billingclient:billing:4.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a34d192b9efcd18d27de0cf2c71b0645/jetified-billing-4.0.0/AndroidManifest.xml:19:13-96
+107            android:exported="false"
+107-->[com.android.billingclient:billing:4.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a34d192b9efcd18d27de0cf2c71b0645/jetified-billing-4.0.0/AndroidManifest.xml:20:13-37
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.android.billingclient:billing:4.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a34d192b9efcd18d27de0cf2c71b0645/jetified-billing-4.0.0/AndroidManifest.xml:21:13-72
+109    </application>
+110
+111</manifest>

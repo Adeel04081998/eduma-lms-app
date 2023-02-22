@@ -1,0 +1,14 @@
+com/eduma/BuildConfig.java
+ com.eduma.BuildConfig
+com/eduma/MainActivity.java
+ com.eduma.MainActivity
+com/eduma/ReactNativeFlipper.java
+ com.eduma.ReactNativeFlipper
+ com.eduma.ReactNativeFlipper$1
+ com.eduma.ReactNativeFlipper$2
+ com.eduma.ReactNativeFlipper$2$1
+com/eduma/MainApplication.java
+ com.eduma.MainApplication
+ com.eduma.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
