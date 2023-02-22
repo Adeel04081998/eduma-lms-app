@@ -18,4 +18,5 @@ Text.defaultProps.allowFontScaling = false;
 if (TextInput.defaultProps == null) TextInput.defaultProps = {};
 TextInput.defaultProps.allowFontScaling = false;
 
+
 AppRegistry.registerComponent(appName, () => App);
