@@ -7,6 +7,7 @@ import {
   BackHandler,
   TouchableOpacity,
   Alert,
+  Linking,
 } from 'react-native';
 import { withTranslation } from 'react-i18next';
 import DeviceInfo from 'react-native-device-info';
@@ -168,6 +169,54 @@ class Profile extends Component {
                     <IconF name="shopping-bag" size={20} color="#fff" />
                   </View>
                   <Text style={styles.txt1}>{t('myOrders.title')}</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                   onPress={() => {
+                    Linking.openURL('https://chat.polilengua.com')
+                  }}
+                  style={{
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                    marginBottom: 15,
+                  }}
+                >
+                  <View
+                    style={{
+                      width: 50,
+                      height: 50,
+                      borderRadius: 12,
+                      backgroundColor: '#F8C719',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                    }}
+                  >
+                    <IconF name="shopping-bag" size={20} color="#fff" />
+                  </View>
+                  <Text style={styles.txt1}>Chat</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                  onPress={() => {
+                    Linking.openURL('https://meet.polilengua.com')
+                  }}
+                  style={{
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                    marginBottom: 15,
+                  }}
+                >
+                  <View
+                    style={{
+                      width: 50,
+                      height: 50,
+                      borderRadius: 12,
+                      backgroundColor: '#F8C719',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                    }}
+                  >
+                    <IconF name="shopping-bag" size={20} color="#fff" />
+                  </View>
+                  <Text style={styles.txt1}>Live</Text>
                 </TouchableOpacity>
                 {/* <TouchableOpacity
                 onPress={() => navigation.navigate('YourCoursesScreen')}

@@ -26,8 +26,8 @@ class Login extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      username: '',
-      password: '',
+      username: __DEV__?'adeel':'',
+      password:__DEV__?'adeel2023':'',
       showPassword: false,
     };
   }
