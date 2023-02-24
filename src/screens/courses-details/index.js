@@ -485,7 +485,7 @@ class CoursesDetails extends Component {
     return Alert.alert(t('alert.notLoggedIn'), t('alert.loggedIn'), [
       {
         text: t('alert.cancel'),
-        onPress: () => {},
+        onPress: () => { },
         style: 'cancel',
       },
       {
@@ -674,6 +674,7 @@ class CoursesDetails extends Component {
             />
           </FastImage>
           <View style={styles.content2}>
+            
             <View
               style={{
                 flexDirection: 'row',
@@ -684,16 +685,18 @@ class CoursesDetails extends Component {
               <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                 <Image source={Images.iconClock} style={styles.icon} />
                 <Text style={styles.txt3}>{data?.duration}</Text>
-                {data &&
+                {data ?
                   data?.count_students !== '' &&
-                  data?.count_students > 0 && (
+                  data?.count_students > 0 ? (
                     <View
                       style={{ flexDirection: 'row', alignItems: 'center' }}
                     >
                       <Image source={Images.iconStudent} style={styles.icon1} />
                       <Text style={styles.txt3}>{data?.count_students}</Text>
                     </View>
-                  )}
+                  ) : null
+                  : null
+                  }
               </View>
               <View
                 style={{
@@ -731,17 +734,14 @@ class CoursesDetails extends Component {
                 )}
               </View>
             </View>
-            {data?.content && (
-              <>
-                <Text style={styles.txtTitle}>
+            {data?.content ? (<><Text style={styles.txtTitle}>
                   {t('singleCourse.overview')}
                 </Text>
                 <RenderDataHTML html={data?.content} />
               </>
-            )}
+            ): null}
             <Text style={styles.txtTitle}>{t('singleCourse.curriculum')}</Text>
-            {data && data.sections.length > 0 ? (
-              <Accordion
+            {data && data?.sections?.length > 0 ? (<Accordion
                 sections={data.sections}
                 underlayColor="transpation"
                 activeSections={activeSections}
@@ -751,8 +751,7 @@ class CoursesDetails extends Component {
                   this.setState({ activeSections: value });
                 }}
               />
-            ) : (
-              <Text style={{ fontFamily: 'Poppins' }}>
+            ) : (<Text style={{ fontFamily: 'Poppins' }}>
                 {t('singleCourse.curriculumEmpty')}
               </Text>
             )}
@@ -826,8 +825,7 @@ class CoursesDetails extends Component {
                 laboris nisi ut aliquip ex ea commodo consequat.
               </Text> */}
             </TouchableOpacity>
-            {review && (
-              <>
+            {review && (<>
                 <Text style={styles.txtTitle}>{t('singleCourse.review')}</Text>
                 <View>
                   <View style={styles.viewReview}>
@@ -855,8 +853,7 @@ class CoursesDetails extends Component {
                 </View>
               </>
             )}
-            {review?.can_review && (
-              <View>
+            {review?.can_review && (<View>
                 <Text
                   style={{
                     fontFamily: 'Poppins-Medium',
@@ -966,12 +963,18 @@ class CoursesDetails extends Component {
                 </TouchableOpacity>
               </View>
             )}
+
+
+            
           </View>
+
+
+          
         </KeyboardAwareScrollView>
 
         {!hiddenBottom ? (
           <View style={styles.bottom}>
-            {data?.course_data.status === 'enrolled' ? (
+            {data?.course_data?.status === 'enrolled' ? (
               <>
                 <Text style={styles.txtTotal}>
                   {t('singleCourse.average')}{' '}
@@ -992,7 +995,7 @@ class CoursesDetails extends Component {
                   />
                 </TouchableOpacity>
               </>
-            ) : data?.course_data.status === 'purchased' ? (
+            ) : data?.course_data?.status === 'purchased' ? (
               <TouchableOpacity
                 style={styles.btnAddToCart}
                 onPress={this.onEnroll}
@@ -1033,46 +1036,92 @@ class CoursesDetails extends Component {
                 </TouchableOpacity>
               )
             )}
-            {data?.course_data.status === 'finished' &&
-              data?.course_data?.graduation && (
-                <View
+            {/* {data ?? data?.course_data.status === 'finished' ? data?.course_data?.graduation ? 
+            <View
+              style={{
+                marginLeft: 10,
+                flex: 1,
+                paddingVertical: 10,
+                alignItems: 'center',
+                justifyContent: 'center',
+                borderRadius: 8,
+                flexDirection: 'row',
+              }}
+            >
+              <Text
+                style={{
+                  fontFamily: 'Poppins-Medium',
+                  fontSize: 14,
+                  lineHeight: 21,
+                  color:
+                    data?.course_data?.graduation === 'passed'
+                      ? '#25C717'
+                      : '#F66',
+                  fontWeight: '500',
+                }}
+              >
+                {data?.course_data?.graduation === 'passed' ? (
+                  <>
+                    <IconF name="check" color="#25C717" size={14} />{' '}
+                    {t('singleCourse.passed')}
+                  </>
+                ) : (
+                  <>
+                    <IconF name="x" color="#F66" size={14} />{' '}
+                    {t('singleCourse.failed')}
+                  </>
+                )}
+              </Text>
+            </View>
+              : <View /> : null} */}
+
+
+
+
+            {
+              data?.course_data?.status === 'finished' ?  data?.course_data?.graduation?(<View
+                style={{
+                  marginLeft: 10,
+                  flex: 1,
+                  paddingVertical: 10,
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  borderRadius: 8,
+                  flexDirection: 'row',
+                }}
+              >
+                <Text
                   style={{
-                    marginLeft: 10,
-                    flex: 1,
-                    paddingVertical: 10,
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    borderRadius: 8,
-                    flexDirection: 'row',
+                    fontFamily: 'Poppins-Medium',
+                    fontSize: 14,
+                    lineHeight: 21,
+                    color:
+                      data?.course_data?.graduation === 'passed'
+                        ? '#25C717'
+                        : '#F66',
+                    fontWeight: '500',
                   }}
                 >
-                  <Text
-                    style={{
-                      fontFamily: 'Poppins-Medium',
-                      fontSize: 14,
-                      lineHeight: 21,
-                      color:
-                        data?.course_data?.graduation === 'passed'
-                          ? '#25C717'
-                          : '#F66',
-                      fontWeight: '500',
-                    }}
-                  >
-                    {data?.course_data?.graduation === 'passed' ? (
-                      <>
-                        <IconF name="check" color="#25C717" size={14} />{' '}
-                        {t('singleCourse.passed')}
-                      </>
-                    ) : (
-                      <>
-                        <IconF name="x" color="#F66" size={14} />{' '}
-                        {t('singleCourse.failed')}
-                      </>
-                    )}
-                  </Text>
-                </View>
-              )}
-            {data?.course_data.status === 'finished' && data?.can_retake && (
+                  {data?.course_data?.graduation === 'passed' ? (
+                    <>
+                      <IconF name="check" color="#25C717" size={14} />{' '}
+                      {t('singleCourse.passed')}
+                    </>
+                  ) : (
+                    <>
+                      <IconF name="x" color="#F66" size={14} />{' '}
+                      {t('singleCourse.failed')}
+                    </>
+                  )}
+                </Text>
+              </View>
+              ) : null: null
+            }
+
+
+
+
+            {data?.course_data?.status === 'finished' && data?.can_retake && (
               <TouchableOpacity
                 style={styles.btnAddToCart}
                 onPress={this.onRetake}
@@ -1082,7 +1131,7 @@ class CoursesDetails extends Component {
                 </Text>
               </TouchableOpacity>
             )}
-            {data?.course_data.status === 'finished' && !data?.can_retake && (
+            {data?.course_data?.status === 'finished' && !data?.can_retake && (
               <View
                 style={{
                   marginLeft: 10,
