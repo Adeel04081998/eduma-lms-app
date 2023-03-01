@@ -218,7 +218,6 @@ class CoursesDetails extends Component {
     dispatch(saveCourse(null));
     BackHandler.removeEventListener('hardwareBackPress', this.handleBackPress);
     DeviceEventEmitter.removeListener('loadCourseDetail', this.refreshData);
-
     if (this.keyboardDidShowListener) {
       this.keyboardDidShowListener.remove();
     }
