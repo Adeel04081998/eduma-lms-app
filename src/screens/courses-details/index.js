@@ -178,6 +178,7 @@ class CoursesDetails extends Component {
       await dispatch(showLoading(true));
       this.id = navigation.state.params?.id;
       const response = await Client.courseDetail(this.id);
+      console.log('response[]=====>',response);
 
       dispatch(setOverview(this.id));
 
@@ -203,6 +204,8 @@ class CoursesDetails extends Component {
 
   getRating = async () => {
     const review = await Client.getReview(this.id);
+    console.log('review[]=====>',review);
+    
     if (review.status === 'success')
       this.setState({
         review: review.data,
